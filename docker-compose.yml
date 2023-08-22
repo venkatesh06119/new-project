@@ -3,27 +3,27 @@ services:
   game:
     image: venkatesh06119/game:latest
     ports:
-      - "86:80"
+      - "81:80"
     deploy:
       replicas: 3
 
   cont2:
     image: venkatesh06119/node-2:latest
     ports:
-      - "87:80"
+      - "82:80"
     deploy:
       replicas: 3
 
   cont3:
     image: venkatesh06119/node-3:latest
     ports:
-      - "88:80"
+      - "83:80"
     deploy:
       replicas: 3
 
   cont4:
     image: venkatesh06119/node-1:latest
     ports:
-      - "89:80"
+      - "84:80"
     deploy:
       replicas: 3
