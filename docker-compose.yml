@@ -1,0 +1,29 @@
+version: '3'
+services:
+  master1:
+    image: venkatesh06119/master1:latest
+    ports:
+      - "81:80"
+    deploy:
+      replicas: 3
+
+  master2:
+    image: venkatesh06119/master2:latest
+    ports:
+      - "82:80"
+    deploy:
+      replicas: 3
+
+  master3:
+    image: venkatesh06119/master3:latest
+    ports:
+      - "83:80"
+    deploy:
+      replicas: 3
+
+  master4:
+    image: venkatesh06119/master4:latest
+    ports:
+      - "84:80"
+    deploy:
+      replicas: 3
