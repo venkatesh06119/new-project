@@ -1,7 +1,7 @@
 version: '3'
 services:
-  cont1:
-    image: venkatesh06119/node-1:latest
+  game:
+    image: venkatesh06119/game:latest
     ports:
       - "86:80"
     deploy:
