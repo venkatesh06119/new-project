@@ -7,21 +7,21 @@ services:
     deploy:
       replicas: 3
 
-  cont2:
+  cont5:
     image: venkatesh06119/node-2:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
 
-  cont3:
+  cont6:
     image: venkatesh06119/node-3:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
 
-  cont4:
+  cont7:
     image: venkatesh06119/node-1:latest
     ports:
       - "84:80"
